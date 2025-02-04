@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Person , Musician , Album , Person_Choice , Runner , Fruit , Category , Car , Toyota , Manufacture
+# from .models import Person , Musician , Album , Person_Choice , Runner , Fruit , Category , Car , Toyota , Manufacture  , Reporter, Articles , Persons , Groups , Membership , Human
+from .models import Human
 
 # Register your models here.
 
@@ -10,6 +11,13 @@ from .models import Person , Musician , Album , Person_Choice , Runner , Fruit ,
 # admin.site.register(Runner)
 # admin.site.register(Fruit)
 # admin.site.register(Category)
-admin.site.register(Car)
-admin.site.register(Toyota)
-admin.site.register(Manufacture)
+# admin.site.register(Car)
+# admin.site.register(Toyota)
+# admin.site.register(Manufacture)
+# admin.site.register(Reporter)
+# admin.site.register(Articles)
+# admin.site.register(Persons)
+# admin.site.register(Groups)
+# admin.site.register(Membership)
+admin.site.register(Human)
+
