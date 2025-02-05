@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Person , Musician , Album , Person_Choice , Runner , Fruit , Category , Car , Toyota , Manufacture  , Human , Blogs, BlogSection , Students
+# from .models import Person , Musician , Album , Person_Choice , Runner , Fruit , Category , Car , Toyota , Manufacture  , Reporter, Articles , Persons , Groups , Membership , Human
+from .models import Human  , Human , Blogs, BlogSection , Students
 
 
 # Register your models here.
